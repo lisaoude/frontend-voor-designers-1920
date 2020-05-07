@@ -3,29 +3,36 @@
 /*eslint 'no-console':0*/
 
 // VASTE VARIABELEN
-var rood_klik = document.querySelector('rood');
-var oranje_klik = document.querySelector('oranje');
-var groen_klik = document.querySelector('groen');
-var groen_klik = document.querySelector('blauw');
-var groen_klik = document.querySelector('roze');
-var groen_klik = document.querySelector('paars');
+var buttonRood = document.querySelector('#roodknop');
+var buttonOranje = document.querySelector('#oranjeknop');
+var buttonGroen = document.querySelector('#groenknop');
+var buttonBlauw = document.querySelector('#blauwknop');
+var buttonRoze = document.querySelector('#rozeknop');
+var buttonPaars = document.querySelector('#paarsknop');
+
+var alleRodeFotos = document.querySelectorAll('.rood');
+var alleOranjeFotos = document.querySelectorAll('.oranje');
+var alleGroeneFotos = document.querySelectorAll('.groen');
+var alleBlauweFotos = document.querySelectorAll('.blauw');
+var alleRozeFotos = document.querySelectorAll('.roze');
+var allePaarseFotos = document.querySelectorAll('.paars');
 
 
+buttonRood.addEventListener('click', function () {
+    alleOranjeFotos.classList.toggle("verstoppen");
+});
 
 
-// FUNCTIE 1 - ROOD
-function verwerkRood_klik(event) {
-    event.preventDefault();
+console.log(alleRodeFotos);
+console.log(alleOranjeFotos);
+console.log(alleGroeneFotos);
+console.log(alleBlauweFotos);
+console.log(alleRozeFotos);
+console.log(allePaarseFotos);
 
-}
-
-rood_klik.addEventListener('onclick', verwerkRood_klik);
-
-
-
-rood_klik.classList.toggle('rood');
-oranje_klik.classList.toggle('oranje');
-groen_klik.classList.toggle('groen');
-blauw_klik.classList.toggle('blauw');
-roze_klik.classList.toggle('roze');
-paars_klik.classList.toggle('paars');
+console.log(buttonRood);
+console.log(buttonOranje);
+console.log(buttonGroen);
+console.log(buttonBlauw);
+console.log(buttonRoze);
+console.log(buttonPaars);

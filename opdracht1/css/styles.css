@@ -49,3 +49,8 @@ section:nth-of-type(2) img {
     max-width: 17vw;
     margin: 0.6em;
 }
+
+
+.verstoppen {
+    display: none;
+}
