@@ -50,6 +50,45 @@ section:nth-of-type(2) img {
     margin: 0.6em;
 }
 
+#knoprood,
+#knoporanje,
+#knopgroen,
+#knopblauw,
+#knoproze,
+#knoppaars {
+    border: none;
+    color: white;
+    width: 6em;
+    height: 6em;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+#knoprood {
+    background-color: red;
+}
+
+#knoporanje {
+    background-color: orange;
+}
+
+#knopgroen {
+    background-color: green;
+}
+
+#knopblauw {
+    background-color: blue;
+}
+
+#knoproze {
+    background-color: deeppink;
+}
+
+#knoppaars {
+    background-color: purple;
+}
 
 .verstoppen {
     display: none;
