@@ -1,0 +1,217 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+div a div {
+    width: 40vw;
+    height: 40vw;
+    margin-bottom: 2rem;
+    border-radius: 25px;
+}
+
+/*
+
+.twee {
+    background-image: url(../images/timetrav_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.drie {
+    background-image: url(../images/npd_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.vier {
+    background-image: url(../images/beethere_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.vijf {
+    background-image: url(../images/ubi_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.zes {
+    background-image: url(../images/beyond_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+*/
+
+.zeven {
+    background-image: url(../images/voyage_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* 
+.twee:hover {
+    background-image: url(../images/timetrav_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.5s;
+}
+
+.drie:hover {
+    background-image: url(../images/npd_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.5s;
+}
+
+.vier:hover {
+    background-image: url(../images/beethere_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.5s;
+}
+
+.vijf:hover {
+    background-image: url(../images/ubi_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.5s;
+}
+
+.zes:hover {
+    background-image: url(../images/beyond_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.5s;
+} */
+
+.zeven:hover {
+    background-image: url(../images/voyage_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.5s;
+}
+
+.bestanden {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+
+
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
+    body {
+        width: 100vw;
+    }
+
+    .landing {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .landingWrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .landingL {
+        position: absolute;
+        height: auto;
+        max-width: 43vw;
+        top: 12rem;
+        left: 7%;
+    }
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 3.5rem;
+    }
+
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+
+    .green {
+        color: #4C9879;
+        font-weight: 500;
+    }
+
+    a {
+        color: #007B0C;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1.2rem;
+        color: #000000;
+    }
+
+    .landingImg {
+        position: absolute;
+        max-width: 27em;
+        width: 45%;
+        height: auto;
+        top: 7rem;
+        right: 3%;
+        margin-right: 3%;
+    }
+
+    .button {
+        position: absolute;
+        width: 12rem;
+        height: auto;
+        top: 22rem;
+        left: 7%;
+        padding: 1rem;
+        background-color: #4C9879;
+        color: #ffffff;
+        border: none;
+        border-radius: 25px;
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    .uitgelicht {
+        position: relative;
+    }
+
+
+    h2 {
+        position: absolute;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 2.5rem;
+        top: 38rem;
+        left: 7%;
+    }
+
+    div a div {
+        width: 25vw;
+        height: 25vw;
+        margin-bottom: 6rem;
+        border-radius: 25px;
+    }
+
+    .werk {
+        position: absolute;
+        display: flex;
+/*        flex-direction: column;*/
+        flex-wrap: wrap;
+        top: 42rem;
+        left: 7%;
+        right: 7%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+    }
+}

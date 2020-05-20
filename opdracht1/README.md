@@ -9,8 +9,13 @@ Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 Beschrijf hier je eigen project.
 En voeg een link naar je demo toe.
 
+- Portfolio website met meerdere projecten en een biografie. Als je naar 'beneden' scrollt vult de betreffende section zich met informatie. Als je op tab klikt ga je ook naar de volgende section. Of als je 'volgende' roept ...
+
+
+
 ## interface
 Leg de interface uit. In de demo heb je de interface design principles 04 & 11 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) toegepast. Hoe heb je dat gedaan?
+
 
 
 ## code
