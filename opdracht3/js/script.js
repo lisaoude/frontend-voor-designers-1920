@@ -39,7 +39,7 @@ function showMovies(jsonObj) {
         plot.textContent = details[i].plot;
         cover.src = details[i].cover;
 
-        // data van de elementen weergeven (43-45)
+        // data van de elementen weergeven in het article (43-45)
         myArticle.appendChild(title);
         myArticle.appendChild(plot);
         myArticle.appendChild(cover);
