@@ -56,3 +56,5 @@
           section.appendChild(myArticle);
       }
   }
+
+  console.log(myH2.textContent);
