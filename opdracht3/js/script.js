@@ -1,60 +1,50 @@
-  const header = document.querySelector('header');
-  const section = document.querySelector('section');
+// section declareren door deze aan te roepen van de HTML
+const section = document.querySelector('section');
 
-  let requestURL = 'https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies.json';
-  let request = new XMLHttpRequest();
 
-  request.open('GET', requestURL);
-  request.responseType = 'json';
-  request.send();
+// JSON bestand inladen mbv de link (6-12)
+let requestURL = 'https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies.json';
+let request = new XMLHttpRequest();
 
-  request.onload = function () {
-      const superHeroes = request.response;
-      populateHeader(superHeroes);
-      showHeroes(superHeroes);
-  }
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+request.onload = function () {
 
-  function populateHeader(jsonObj) {
-      const myH1 = document.createElement('h1');
-      myH1.textContent = jsonObj['squadName'];
-      header.appendChild(myH1);
+    const movies = request.response;
 
-      const myPara = document.createElement('p');
-      myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
-      header.appendChild(myPara);
-  }
+    // de functie showMovies zorgt ervoor dat inhoud wordt aangemaakt & in de HTML wordt weergegeven
+    showMovies(movies);
+}
 
-  function showHeroes(jsonObj) {
-      const heroes = jsonObj['members'];
 
-      for (let i = 0; i < heroes.length; i++) {
-          const myArticle = document.createElement('article');
-          const myH2 = document.createElement('h2');
-          const myPara1 = document.createElement('p');
-          const myPara2 = document.createElement('p');
-          const myPara3 = document.createElement('p');
-          const myList = document.createElement('ul');
+// functie declareren, const 'details' aanmaken, welke data uit het JSON file haalt
+function showMovies(jsonObj) {
+    const details = jsonObj;
 
-          myH2.textContent = heroes[i].name;
-          myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
-          myPara2.textContent = 'Age: ' + heroes[i].age;
-          myPara3.textContent = 'Superpowers:';
 
-          const superPowers = heroes[i].powers;
-          for (let j = 0; j < superPowers.length; j++) {
-              const listItem = document.createElement('li');
-              listItem.textContent = superPowers[j];
-              myList.appendChild(listItem);
-          }
+    // elementen aanmaken in de for loop, welke nodig zijn om de content te kunnen tonen. Hierdoor kunnen we door elke array 'loopen'.
+    for (let i = 0; i < details.length; i++) {
 
-          myArticle.appendChild(myH2);
-          myArticle.appendChild(myPara1);
-          myArticle.appendChild(myPara2);
-          myArticle.appendChild(myPara3);
-          myArticle.appendChild(myList);
+        // article aanmaken waar de andere elementen in komen te staan
+        const myArticle = document.createElement('article');
 
-          section.appendChild(myArticle);
-      }
-  }
+        // elementen aanmaken (33-35)
+        const title = document.createElement('h2');
+        const plot = document.createElement('p');
+        const cover = document.createElement('img');
 
-  console.log(myH2.textContent);
+        // data voor de elementen ophalen (38-40)
+        title.textContent = details[i].title;
+        plot.textContent = details[i].plot;
+        cover.src = details[i].cover;
+
+        // data van de elementen weergeven (43-45)
+        myArticle.appendChild(title);
+        myArticle.appendChild(plot);
+        myArticle.appendChild(cover);
+
+        // element article weergeven, waar de rest vervolgens 'in' kan
+        section.appendChild(myArticle);
+    }
+}

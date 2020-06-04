@@ -5,45 +5,38 @@ html {
 }
 
 body {
-    width: 800px;
+    width: 85%;
     margin: 0 auto;
 }
 
-h1,
 h2 {
-    font-family: 'Faster One', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
-/* header styles */
-
-h1 {
-    font-size: 4rem;
-    text-align: center;
+section {
+    display: flex;
+    flex-wrap: nowrap
 }
-
-header p {
-    font-size: 1.3rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-/* section styles */
 
 section article {
-    width: 33%;
+    width: 35%;
     float: left;
+    margin-right: 100px;
 }
 
 section p {
     margin: 5px 0;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+section img {
+    max-width: 30rem;
 }
 
 section ul {
     margin-top: 0;
-}
-
-h2 {
-    font-size: 2.5rem;
-    letter-spacing: -5px;
-    margin-bottom: 10px;
 }
