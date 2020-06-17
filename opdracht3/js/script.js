@@ -18,6 +18,8 @@ function showBooks(jsonObj) {
     }
 }
 
+
+
 function showDetails(jsonObj) {
     const details = jsonObj;
 
@@ -25,9 +27,9 @@ function showDetails(jsonObj) {
 
         const myArticle = document.createElement('article');
 
-        const title = document.createElement('h2');
-        const author = document.createElement('h3');
-        const year = document.createElement('h4');
+        const title = document.createElement('h1');
+        const author = document.createElement('h2');
+        const year = document.createElement('h3');
         const myImg = document.createElement('img');
 
         title.textContent = details[i].title;
@@ -42,4 +44,17 @@ function showDetails(jsonObj) {
 
         section.appendChild(myArticle);
     }
+}
+
+button.addEventListener('click', removePlaceholder);
+
+function removePlaceholder() {
+    var myDiv = document.getElementById('placeholder1');
+    myDiv.classList.toggle('remove');
+
+    var myDiv = document.getElementById('placeholder2');
+    myDiv.classList.toggle('remove');
+
+    var myDiv = document.getElementById('placeholder3');
+    myDiv.classList.toggle('remove');
 }
