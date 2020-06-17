@@ -35,8 +35,6 @@ function showDetails(jsonObj) {
         year.textContent = details[i].year;
         myImg.src = details[i].imageLink;
 
-        myImg.setAttribute('class', 'cover');
-
         myArticle.appendChild(title);
         myArticle.appendChild(author);
         myArticle.appendChild(year);
