@@ -28,19 +28,19 @@ function showDetails(jsonObj) {
         const title = document.createElement('h2');
         const author = document.createElement('h3');
         const year = document.createElement('h4');
-        const img = document.createElement('img');
+        const myImg = document.createElement('img');
 
         title.textContent = details[i].title;
         author.textContent = details[i].author;
         year.textContent = details[i].year;
-        img.src = details[i].imageLink;
+        myImg.src = details[i].imageLink;
 
-        img.setAttribute('class', 'cover');
+        myImg.setAttribute('class', 'cover');
 
         myArticle.appendChild(title);
         myArticle.appendChild(author);
         myArticle.appendChild(year);
-        myArticle.appendChild(img);
+        myArticle.appendChild(myImg);
 
         section.appendChild(myArticle);
     }
