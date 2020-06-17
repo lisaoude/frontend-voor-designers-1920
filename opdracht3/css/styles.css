@@ -54,7 +54,7 @@ h3 {
     font-size: 1rem;
 }
 
-button {
+#button {
     background-color: #5CA663;
     width: 13rem;
     height: 3rem;
@@ -88,7 +88,7 @@ section article img {
     margin-top: 20px;
 }
 
-div {
+section div {
     width: 20rem;
     height: 20rem;
     float: left;
@@ -99,5 +99,30 @@ div {
 
 .remove {
     position: absolute;
-    top: -25rem;
+    top: -100rem;
+}
+
+
+#containerMore {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#buttonMore {
+    background-color: black;
+    position: absolute;
+    top: 100rem;
+    width: 13rem;
+    height: 3rem;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.removePLS {
+    opacity: 0;
 }
