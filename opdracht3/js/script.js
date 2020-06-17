@@ -1,14 +1,24 @@
+// section declareren door deze aan te roepen vanuit de HTML
 const section = document.querySelector('section');
+
+// variabelen button en buttonMore aanmaken en deze koppelen aan de elementen uit de HTML aan de hand van IDs
 const button = document.getElementById('button');
 const buttonMore = document.getElementById('buttonMore');
 
-
+// wanneer er op de knop wordt geklikt, wordt functie showBooks ingezet
 button.addEventListener('click', showBooks);
 
+
+//functie declareren
 function showBooks(jsonObj) {
 
+    // JSON bestand inladen mbv de link
     let requestURL = 'https://raw.githubusercontent.com/benoitvallon/100-best-books/master/books.json';
+
+    //XMLHttpRequest object aanmaken, hiermee wordt externe data geladen
     let request = new XMLHttpRequest();
+
+    //koppel de JSON URL aan de XMLHttpg
     request.open('GET', requestURL);
 
     request.responseType = 'json';
@@ -23,7 +33,7 @@ function showBooks(jsonObj) {
 function showDetails(jsonObj) {
     const details = jsonObj;
 
-    for (let i = 0; i < 9; i++) {
+    for (let i = 0; i < 12; i++) {
 
         const myArticle = document.createElement('article');
 
@@ -58,6 +68,8 @@ function removePlaceholder() {
 
     var myDiv = document.getElementById('placeholder3');
     myDiv.classList.add('remove');
+
+    buttonMore.classList.remove('removeButton');
 }
 
 
@@ -82,7 +94,7 @@ function showMore(jsonObj) {
 function showMoreBooks(jsonObj) {
     const details = jsonObj;
 
-    for (let i = 9; i < 18; i++) {
+    for (let i = 12; i < 24; i++) {
 
         const myArticle = document.createElement('article');
 
@@ -109,6 +121,6 @@ buttonMore.addEventListener('click', removeButton);
 
 function removeButton() {
     var myDiv = document.getElementById('buttonMore');
-    myDiv.classList.add('removePLS');
+    myDiv.classList.add('removeButton');
 
 }
