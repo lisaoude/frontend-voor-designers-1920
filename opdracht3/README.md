@@ -1,5 +1,5 @@
 ## Opdracht
-Voor deze opdracht heb ik een pagina gemaakt waarop de beste boeken aller tijden te vinden zijn. De data van deze boeken wordt opgehaald uit <a href='https://raw.githubusercontent.com/benoitvallon/100-best-books/master/books.json'/>dit JSON file.</a> De uitleg van mijn JavaScript code is te vinden in het bestand zelf (<a href='https://github.com/lisaoude/frontend-voor-designers-1920/blob/master/opdracht3/js/script.js'/>of hier</a>).
+Voor deze opdracht heb ik een pagina gemaakt waarop de beste boeken aller tijden te vinden zijn. De data van deze boeken wordt opgehaald uit <a href='https://raw.githubusercontent.com/benoitvallon/100-best-books/master/books.json'/>dit JSON file.</a> De uitleg van mijn JavaScript code is te vinden in het bestand zelf (<a href='https://github.com/lisaoude/frontend-voor-designers-1920/blob/master/opdracht3/js/script.js'/>hier te vinden</a>).
 
 <a href='https://lisaoude.github.io/frontend-voor-designers-1920/opdracht3'/> Hier is mijn ontwerp te vinden. </a>
 
@@ -18,6 +18,7 @@ Toch is de pagina niet geheel leeg. Er zijn placeholders op de pagina te zien al
 <h4> Ideal State </h4>
 De ideal state is bereikt wanneer de gebruiker op de button(s) heeft geklikt. 
 
+<br>
 <br>
 
 ## Principles of User Interface Design
