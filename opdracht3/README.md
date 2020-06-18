@@ -1,5 +1,5 @@
 ## Opdracht
-Voor deze opdracht heb ik een pagina gemaakt waarop de beste boeken aller tijden te vinden zijn. De data van deze boeken wordt opgehaald uit <a href='https://raw.githubusercontent.com/benoitvallon/100-best-books/master/books.json'/>dit JSON file.</a> De uitleg van mijn JavaScript code is te vinden in het bestand zelf (<a href='https://github.com/lisaoude/frontend-voor-designers-1920/blob/master/opdracht3/js/script.js'/>hier te vinden</a>).
+Voor deze opdracht heb ik een pagina gemaakt waarop de beste boeken aller tijden te vinden zijn. De data van deze boeken wordt opgehaald uit <a href='https://raw.githubusercontent.com/benoitvallon/100-best-books/master/books.json'/>dit JSON file.</a> De uitleg van mijn JavaScript code is te vinden <a href='https://github.com/lisaoude/frontend-voor-designers-1920/blob/master/opdracht3/js/script.js'/>in het bestand zelf</a>.
 
 <a href='https://lisaoude.github.io/frontend-voor-designers-1920/opdracht3'/> Hier is mijn ontwerp te vinden. </a>
 
@@ -27,19 +27,19 @@ De ideal state is bereikt wanneer de gebruiker op de button(s) heeft geklikt.
 <br>
 
 ## Principles of User Interface Design
-<h4> 4. Keep users in control </h4> 
+<h4> 04. Keep users in control </h4> 
 Binnen mijn ontwerp is dit principe terug te vinden bij de twee buttons. De twee buttons geven duidelijk aan wat er zal gaan gebeuren wanneer er op de button wordt geklikt. Ook de drie placeholders laten de gebruiker weten waar de content geplaatst zal worden wanneer hij op de button klikt.
 
 <br>
 <br>
 
-<h4> 8. Provide a natural next step </h4> 
+<h4> 08. Provide a natural next step </h4> 
 De natural next step is binnen mijn ontwerp te vinden bij de 'show more books' button. Wanneer de gebruiker naar beneden gescrollt heeft, zal deze vervolgens de button vinden en weten wat zijn verwachtte volgende stap is. Ook is er bij deze button en de eerst button op de pagina een hover state aanwezig, welke de gebruiker laat weten dat de buttons klikbaar zijn.
 
 <br>
 <br>
 
-<h4> 9. Appearance follows behavior </h4> 
+<h4> 09. Appearance follows behavior </h4> 
 Binnen mijn ontwerp heb ik dit principe verwerkt door tekst eruit te laten zien als tekst en de buttons er ook duidelijk uit te laten zien als klikbare buttons. Ze vallen op binnen het scherm en hebben daarnaast ook een hover state, wat de gebruiker laat weten dat de buttons klikbaar zijn.
 
 <br>
