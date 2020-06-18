@@ -8,7 +8,7 @@ var button = document.getElementById('button');
 var buttonContainer = document.getElementById('buttonContainer');
 
 
-
+s
 // wanneer er op de button wordt geklikt, wordt functie showBooks ingezet.
 button.addEventListener('click', showBooks);
 
