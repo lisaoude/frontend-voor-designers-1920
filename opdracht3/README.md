@@ -7,7 +7,7 @@ Voor deze opdracht heb ik een pagina gemaakt waarop de beste boeken aller tijden
 <br>
 
 ## Vragen
-1. Hoe zou ik een button anders onderaan de pagina kunnen krijgen dan met position relative/absolute en een top? Hij kwam hier anders onderaan de viewport, omdat hij niets heeft om onder aan aan te sluiten want de content komt uit de JSON en niet de html.
+1. Hoe zou ik een button anders onderaan de pagina kunnen krijgen dan met position relative/absolute en een top? Hij kwam hier anders onderaan de viewport, omdat hij niets heeft om onder aan aan te sluiten want de content komt uit de JSON en niet de html. Idee: hij komt onder een section te staan, dus de section een vaste hoogte meegeven/een hoogte geven wanneer de knop wordt ingeladen??
 
 2. Hoe zou ik mijn placeholders anders weer kunnen laten verdwijnen? Ik heb ze nu elk een id gegeven en ze gezamenlijk met behulp van een class een -top gegeven zodat ze uit het beeld komen te staan, hahaha.
 
