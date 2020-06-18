@@ -1,5 +1,5 @@
 ## Opdracht
-Voor deze opdracht heb ik een pagina gemaakt waarop de beste boeken aller tijden te vinden zijn. De data van deze boeken wordt opgehaald uit <a href='https://raw.githubusercontent.com/benoitvallon/100-best-books/master/books.json'/>dit JSON file.</a> Wanneer de gebruiker op de knop drukt, worden er 12 boeken geladen op de pagina. Als de gebruiker vervolgens op de volgende knop drukt, worden er nog eens 12 boeken geladen. De uitleg van mijn JavaScript code is te vinden <a href='https://github.com/lisaoude/frontend-voor-designers-1920/blob/master/opdracht3/js/script.js'/>in het bestand zelf</a>.
+Voor deze opdracht heb ik een pagina gemaakt waarop de beste boeken aller tijden te vinden zijn. De data van deze boeken wordt opgehaald uit <a href='https://raw.githubusercontent.com/benoitvallon/100-best-books/master/books.json'/>dit JSON file.</a> Wanneer de gebruiker op de button klikt, worden er 12 boeken geladen op de pagina. Als de gebruiker vervolgens op de volgende button klikt, worden er nog eens 12 boeken geladen. De uitleg van mijn JavaScript code is te vinden <a href='https://github.com/lisaoude/frontend-voor-designers-1920/blob/master/opdracht3/js/script.js'/>in het bestand zelf</a>.
 
 <a href='https://lisaoude.github.io/frontend-voor-designers-1920/opdracht3'/> Hier is mijn ontwerp te vinden. </a>
 
