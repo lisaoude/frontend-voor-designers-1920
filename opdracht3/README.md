@@ -2,7 +2,7 @@
 Voor deze opdracht heb ik een pagina gemaakt waarop de beste boeken aller tijden te vinden zijn. De data van deze boeken wordt opgehaald uit <a href=https://raw.githubusercontent.com/benoitvallon/100-best-books/master/books.json/>dit JSON file.</a>
 
 
-##Principles of User Interface Design
+## Principles of User Interface Design
 <h4> 4. Keep users in control </h4> 
 Binnen mijn ontwerp is deze principle terug te vinden bij de twee buttons. De twee buttons geven duidelijk aan wat er zal gaan gebeuren wanneer er op de button wordt geklikt. 
 
